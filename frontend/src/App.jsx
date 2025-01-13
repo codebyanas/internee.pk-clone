@@ -7,6 +7,8 @@ import Third from './components/Third'
 import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Company from './components/Company'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Login from './components/Login'
 
@@ -33,15 +35,19 @@ function App() {
     },
     {
       path:'/internships',
-      element:<><Navbar/> <Third/></>
+      element:<><Navbar/> <Third/> <Footer/></>
    },
    {
     path:'/reviews',
-    element:<div className='overflow-hidden'><Navbar/> <Fifth/></div>
+    element:<div className='overflow-hidden'><Navbar/> <Fifth/> <Footer/></div>
  },
  {
   path:'/contact',
-  element:<><Navbar/> <Footer/></>
+  element:<><Navbar/> <Contact/> <Footer/></>
+},
+{
+ path:'/company-collaborations',
+ element:<><Navbar/> <Company/> <Contact/>  <Footer/></>
 }
 ])
   return (
