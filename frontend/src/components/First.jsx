@@ -40,8 +40,8 @@ const First = () => {
                 <span className='text-sm font-bold min-w-40 text-center'><i>90% courses are in Urdu</i></span>
             </div>
         </div>
-        <div className="right lg:w-[50%] w-3/4 m-auto" data-aos = "fade-right">
-            <img src='src\assets\hero.webp'/>
+        <div className="right lg:w-[40%] w-3/4 m-auto" data-aos = "fade-right">
+            <img src='src\assets\hero.png'/>
         </div>
     </div>
   )

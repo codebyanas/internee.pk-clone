@@ -4,11 +4,11 @@ import "aos/dist/aos.css";
 import LazyLoad from "react-lazyload";
 
 import frontEndImg from "../assets/internship_array/FrontEnd.webp";
-import backendImg from "../assets/internship_array/BackendDevelopment.webp";
+import backendImg from "../assets/internship_array/BackendDevelopment.jpg";
 import mobileAppImg from "../assets/internship_array/Mobile App Developer.webp";
-import logoDesignerImg from "../assets/internship_array/logo-designer-working-computer-desktop.webp";
+import logoDesignerImg from "../assets/internship_array/logo-design.jpg";
 import cloudImg from "../assets/internship_array/cloud.webp";
-import portraitWomanImg from "../assets/internship_array/portrait-woman-customer-service-worker.webp";
+import portraitWomanImg from "../assets/internship_array/IsGraphic_DesignAGoodCareerb.avif";
 import chatbotImg from "../assets/internship_array/chatbotDevelopment.webp";
 import figmaImg from "../assets/internship_array/figma.png";
 import analysisImg from "../assets/internship_array/analysis.webp";

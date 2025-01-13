@@ -1,10 +1,12 @@
 import React from 'react';
+import { FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 export default function Contact() {
   return (
     <div className="flex flex-col md:flex-row p-5 bg-gray-100 gap-6">
       {/* Left Section */}
-      <div className="flex-1  mx-10">
+      <div className="flex-1 mx-10">
         <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
         <p className="mb-4">
           Our doors are always open! Drop by and let’s discuss how we can help you achieve your goals. We’re excited to
@@ -24,22 +26,45 @@ export default function Contact() {
         </button>
         <div className="mt-6">
           <p className="mb-2">Follow us</p>
-          <div className="flex gap-4">
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">
-              Twitter
+          <div className="flex gap-4 text-2xl">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-500 hover:text-blue-600"
+            >
+              <FaTwitter />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">
-              Facebook
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-700 hover:text-blue-800"
+            >
+              <FaLinkedin />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-pink-500 hover:underline">
-              Instagram
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-600 hover:text-blue-700"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-pink-500 hover:text-pink-600"
+            >
+              <AiFillInstagram />
             </a>
           </div>
         </div>
       </div>
 
       {/* Right Section */}
-      <div className="flex-1 bg-white p-6 rounded-lg shadow-md  mx-10">
+      <div className="flex-1 bg-white p-6 rounded-lg shadow-md mx-10">
         <h3 className="text-xl font-semibold mb-3">Contact Form</h3>
         <p className="mb-4">Ask us everything and we would love to hear from you</p>
         <form className="space-y-4">
