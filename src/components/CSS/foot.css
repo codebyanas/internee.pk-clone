@@ -1,0 +1,27 @@
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer-logo img {
+    height: 48px;
+}
+
+.footer-logo p {
+    margin: 0;
+}
+
+.footer-links a,
+.footer-help a,
+.footer-social p {
+    color: #4a4a4a;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.footer-social .fab {
+    font-size: 1.5rem;
+}
+
+.footer-social .fab:hover {
+    color: #e5e5e5;
+}
