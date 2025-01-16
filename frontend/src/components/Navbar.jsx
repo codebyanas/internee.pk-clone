@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Logo Section */}
       <div className="logo cursor-pointer">
         <Link to="/">
-          <img src="src/assets/logo.webp" width="200px" alt="logo" />
+          <img src="src/assets/logo.png" width="200px" alt="logo" />
         </Link>
       </div>
 

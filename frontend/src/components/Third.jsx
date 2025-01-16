@@ -3,15 +3,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import LazyLoad from "react-lazyload";
 
-import frontEndImg from "../assets/internship_array/FrontEnd.webp";
-import backendImg from "../assets/internship_array/BackendDevelopment.jpg";
-import mobileAppImg from "../assets/internship_array/Mobile App Developer.webp";
-import logoDesignerImg from "../assets/internship_array/logo-design.jpg";
-import cloudImg from "../assets/internship_array/cloud.webp";
-import portraitWomanImg from "../assets/internship_array/IsGraphic_DesignAGoodCareerb.avif";
-import chatbotImg from "../assets/internship_array/chatbotDevelopment.webp";
+import frontEndImg from "../assets/internship_array/FrontEnd.png";
+import backendImg from "../assets/internship_array/BackendDevelopment.png";
+import mobileAppImg from "../assets/internship_array/Mobile App Developer.png";
+import logoDesignerImg from "../assets/internship_array/logo-design.png";
+import cloudImg from "../assets/internship_array/cloud.png";
+import portraitWomanImg from "../assets/internship_array/IsGraphic_DesignAGoodCareerb.png";
+import chatbotImg from "../assets/internship_array/chatbotDevelopment.png";
 import figmaImg from "../assets/internship_array/figma.png";
-import analysisImg from "../assets/internship_array/analysis.webp";
+import analysisImg from "../assets/internship_array/analysis.png";
 
 const Third = () => {
   useEffect(() => {

@@ -53,7 +53,7 @@ const Login = () => {
     <div className="min-h-[100vh] flex items-center justify-center w-screen">
       <div className="login w-3/4 md:w-1/3 m-auto p-3 rounded-2xl flex flex-col items-center justify-center shadow-2xl shadow-black">
         <img
-          src="src/assets/logo.webp"
+          src="src/assets/logo.png"
           width={"200px"}
           alt="logo"
           className="mb-3"

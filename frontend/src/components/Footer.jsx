@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer bg-gray-100 py-10">
             <div className="container mx-auto flex flex-col md:flex-row justify-around items-center md:items-start">
                 <div className="footer-logo flex flex-col items-center md:items-start">
-                    <img src="src\assets\logo.webp" alt="Internee.pk Logo" className="h-12 mb-4" />
+                    <img src="src\assets\logo.png" alt="Internee.pk Logo" className="h-12 mb-4" />
                     <p className="text-green-600 font-bold text-xl">Internee.pk</p>
                     <p className="text-purple-600 text-sm">VIRTUAL INTERNSHIP PLATFORM</p>
                 </div>
