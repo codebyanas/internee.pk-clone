@@ -41,7 +41,7 @@ const First = () => {
             </div>
         </div>
         <div className="right lg:w-[40%] w-3/4 m-auto" data-aos = "fade-right">
-            <img src='src\assets\hero.png'/>
+            <img src='https://i.postimg.cc/RVr2WN7D/hero.png'/>
         </div>
     </div>
   )

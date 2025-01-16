@@ -12,7 +12,7 @@ const Fourth = () => {
     <div className="mt-20">
       <div className="task-portal flex flex-col-reverse lg:flex-row gap-6 max-w-screen">
         <div className="left lg:max-w-[40%] max-w-full lg:min-h-[100vh] lg:flex flex-col justify-center my-6 lg:my-0">
-          <img src="https://i.postimg.cc/tJ8RLywM/task.png" alt="portal" data-aos = "fade-right"/>
+          <img src="https://i.postimg.cc/X7wmd4x7/task.png" alt="portal" data-aos = "fade-right"/>
         </div>
         <div className="right lg:max-w-[60%] max-w-full">
           <p className="font-bold text-xl w-3/4 m-auto text-center lg:w-full lg:m-0 lg:text-left">Our own task portal</p>

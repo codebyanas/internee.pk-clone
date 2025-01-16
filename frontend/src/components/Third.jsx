@@ -3,16 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import LazyLoad from "react-lazyload";
 
-import frontEndImg from "../assets/internship_array/FrontEnd.png";
-import backendImg from "../assets/internship_array/BackendDevelopment.png";
-import mobileAppImg from "../assets/internship_array/Mobile App Developer.png";
-import logoDesignerImg from "../assets/internship_array/logo-design.png";
-import cloudImg from "../assets/internship_array/cloud.png";
-import portraitWomanImg from "../assets/internship_array/IsGraphic_DesignAGoodCareerb.png";
-import chatbotImg from "../assets/internship_array/chatbotDevelopment.png";
-import figmaImg from "../assets/internship_array/figma.png";
-import analysisImg from "../assets/internship_array/analysis.png";
-
 const Third = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -20,55 +10,55 @@ const Third = () => {
 
   const internships = [
     {
-      img: frontEndImg,
+      img: "https://i.postimg.cc/8cc9L6y2/FrontEnd.png",
       title: "Front End Development Internship",
       description:
         "Comprehensive curriculum crafted by industry experts, ensuring you grasp the intricacies of front-end development.",
     },
     {
-      img: backendImg,
+      img: "https://i.postimg.cc/FHStP09m/Backend-Development.png",
       title: "Back End Development Internship",
       description:
         "Detailed backend development curriculum to prepare you for real-world challenges in server-side programming.",
     },
     {
-      img: mobileAppImg,
+      img: "https://i.postimg.cc/ZYs14wn4/Mobile-App-Developer.png",
       title: "Mobile App Development Internship",
       description:
         "Learn mobile application development with hands-on projects guided by industry professionals.",
     },
     {
-      img: logoDesignerImg,
+      img: "https://i.postimg.cc/FRDwfZxb/logo-design.png",
       title: "Logo Designing Internship",
       description:
         "Master the art of logo design with practical lessons and creative projects.",
     },
     {
-      img: cloudImg,
+      img: "https://i.postimg.cc/R01km96D/cloud.png",
       title: "Cloud Computing Internship",
       description:
         "Dive into cloud platforms with practical training and projects for an advanced learning experience.",
     },
     {
-      img: portraitWomanImg,
+      img: "https://i.postimg.cc/gJYfk53k/Is-Graphic-Design-AGood-Careerb.png",
       title: "Graphic Designing Internship",
       description:
         "Develop your graphic design skills with a structured and industry-relevant curriculum.",
     },
     {
-      img: chatbotImg,
+      img: "https://i.postimg.cc/HnNKzkRV/chatbot-Development.png",
       title: "Chatbot Development Internship",
       description:
         "Build and deploy intelligent chatbots using the latest tools and techniques.",
     },
     {
-      img: figmaImg,
+      img: "https://i.postimg.cc/hGRkNhjm/figma.png",
       title: "Figma Internship",
       description:
         "Learn UI/UX design with Figma, creating user-friendly and visually appealing interfaces.",
     },
     {
-      img: analysisImg,
+      img: "https://i.postimg.cc/8P9QBZgt/analysis.png",
       title: "Data Analytics Internship",
       description:
         "Analyze data effectively with a curriculum designed for aspiring data analysts.",
